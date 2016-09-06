@@ -9,9 +9,12 @@
 //
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
-//
+// Removed Turbolinks and require_tree 8 31
 //= require jquery
 //= require bootstrap
 //= require jquery_ujs
-//= require turbolinks
+//= require raty.js
+//= require map
 //= require_tree .
+
+

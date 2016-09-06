@@ -8,8 +8,7 @@
  * @version : 2.7.0
  *
  */
-
-;
+ ;
 (function($) {
   'use strict';
 
@@ -757,4 +756,4 @@
     targetType   : 'hint'
   };
 
-})
+})(JQuery);
