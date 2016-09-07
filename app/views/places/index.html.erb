@@ -31,6 +31,7 @@
 <% end %>
 
 <script type="text/javascript">
+
  <% @places.each do |place| %>
       $(".average_<%= place.id %>").raty({
         starOn: "<%= image_path("star-on.png") %>",

@@ -2,12 +2,14 @@
 <html>
 <head>
  <title>Workspace</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.css" />
+
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
   <script type="text/javascript"
    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJiUEmGnX1sCAhz5LWsbmtHNA1XTQwNDM"></script>
-
+ <script src="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
+ <%= csrf_meta_tags %>
 </head>
 <body>
 <%= render 'layouts/header' %>
